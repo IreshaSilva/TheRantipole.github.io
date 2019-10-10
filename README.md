@@ -1,1 +1,0 @@
-# TheRantipole.github.io

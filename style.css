@@ -161,7 +161,8 @@ color:#fc6850;
   background-color: #3d3d3d;
   opacity: 0.9;
   color: white;
-  overflow: scroll;
+  overflow: auto;
+  scrollbar-width: none;
 }
 
 .red{

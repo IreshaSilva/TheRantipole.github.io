@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Iresha Silva</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- 
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
+
+
+
+</head>
+
+<body>
+
+  <!-- Preloader -->
+
+  <div id="overlayer"></div>
+    <span class="loader">
+    <span class="loader-inner"></span>
+      <link rel="stylesheet" href="./preloader.css">
+      <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+      <script  src="./preloader.js"></script>   
+    </span>
+
+<!-- BACKGROUND -->
+<canvas id="playArea"></canvas>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="./script.js"></script>
+    
+<!-- NAVIGATION BAR -->
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+ <script>
+   
+    $(document).ready(function(){
+    $('ul li a').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
+});
+});
+ </script>
+
+<div class="icon-bar" id="iconbar">
+  <nav class="navecation">
+    <ul id="navi">
+      <li><a class="fold" class="btn active" href="#"><i class="fa fa-user" onclick="openCity('London')"></i></a> </li>
+      <li><a id="fold" class="btn" href="#"><i class="fa fa-address-card" onclick="openCity('Paris')"></i></a></li>
+      <li><a id="fold" class="btn" href="#"><i class="fa fa-edit" onclick="openCity('Tokyo')"></i></a></li>
+      <li><a id="fold" class="btn" href="#"><i class="fa fa-trash"></i></a> </li>          
+    </ul>
+  </nav>
+</div>
+
+
+<!-- IMAGE -->
+
+<div class="card" id="div1">
+
+
+  <div class="card__image-container">
+    <img class="card__image" src="image1.jpg" alt="">
+  </div>
+
+  <svg class="card__svg" viewBox="0 0 800 500">
+
+    <path d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400 L 800 500 L 0 500" stroke="transparent" fill="#333"/>
+    <path class="card__line" d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400" stroke="#34ebd8" stroke-width="5" fill="transparent"/>
+
+      <div class="social-container">
+        <ul class="social-icons">
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+  </svg>
+    
+</div>
+  
+
+<!-- CONTENT -->
+<div class="content">
+  <div id="London" class="city">
+  <link rel="stylesheet" type="text/css" href="aboutme.html">
+
+  <h2>About Me</h2>
+  <p>Što je Lorem Ipsum?
+Lorem Ipsum je jednostavno probni tekst koji se koristi u tiskarskoj i slovoslagarskoj industriji. Lorem Ipsum postoji kao industrijski standard još od 16-og stoljeća, kada je nepoznati tiskar uzeo tiskarsku galiju slova i posložio ih da bi napravio knjigu s uzorkom tiska. Taj je tekst ne samo preživio pet stoljeća, već se i vinuo u svijet elektronskog slovoslagarstva, ostajući u suštini nepromijenjen. Postao je popularan tijekom 1960-ih s pojavom Letraset listova s odlomcima Lorem Ipsum-a, a u skorije vrijeme sa software-om za stolno izdavaštvo kao što je Aldus PageMaker koji također sadrži varijante Lorem Ipsum-a.
+
+Zašto ga koristimo?
+Odavno je uspostavljena činjenica da čitača ometa razumljivi tekst dok gleda raspored elemenata na stranici. Smisao korištenja Lorem Ipsum-a jest u tome što umjesto 'sadržaj ovjde, sadržaj ovjde' imamo normalni raspored slova i riječi, pa čitač ima dojam da gleda tekst na razumljivom jeziku. Mnogi programi za stolno izdavaštvo i uređivanje web stranica danas koriste Lorem Ipsum kao zadani model teksta, i ako potražite 'lorem ipsum' na Internetu, kao rezultat dobit ćete mnoge stranice u izradi. Razne verzije razvile su se tijekom svih tih godina, ponekad slučajno, ponekad namjerno (s dodatkom humora i slično).
+<p>
+  Odakle dolazi?
+Suprotno raširenom mišljenju, Lorem Ipsum nije samo slučajni tekst, već ima korijene u klasičnoj latinskoj književnosti iz godine 45. pr.n.e., što znači da mu je preko 2000 godina. Richard McClintock, profesor latinskog jezika na Hampden-Sydney koledžu u Virginiji, potražio je jednu od čudnijijh latinskih riječi, consectetur, iz Lorem Ipsum teksta, i prolazeći kroz citate te riječi u klasičnoj književnosti, otkrio nedvojbeni izvor. Lorem Ipsum dolazi iz odlomaka 1.10.32 i 1.10.33 Ciceronovog djela pod naslovom "de Finibus Bonorum et Malorum" (Krajnosti dobra i zla), napisanog 45. godine pr.n.e. Ovo je djelo rasprava o teoriji etike, a bilo je vrlo popularno u Renesansi. Prvi redak Lorem Ipsum-a, "Lorem ipsum dolor sit amet..", dolazi iz odlomka 1.10.32.
+
+</p>
+
+<p>
+Za one koje zanima, standardni dio Lorem Ipsum-a koji se koristi od 16.-og stoljeća može se naći u nastavku na ovoj stranici. Dijelovi 1.10.32 i 1.10.33 iz djela "de Finibus Bonorum et Malorum" su doslovno preneseni iz originala, popraćeni engleskim prijevodom H. Rackhama iz 1914.
+</p>
+<p>
+Gdje se može nabaviti?
+Postoje mnoge varijacije odlomaka iz Lorem Ipsum-a, ali većina je pretrpjela kojekakve promjene s dodanim humorom, ili nasumičnim riječima koje nikako tu ne spadaju. Ako trebate koristiti Lorem Ipsum, morate biti sigurni da tekst ne sadrži skrivene nepodobne riječi ili fraze. Lorem Ipsum generatori na Internetu većinom ponavljaju zadane odlomke po potrebi, što ovaj naš čini prvim pravim generatorom na Internetu. Mi koristimo riječnik od 200 latinskih riječi, u kombinaciji s nekoliko modela rečeničnih struktura, da bi generirali Lorem Ipsum koji izgleda razumno. Stoga je Lorem Ipsum s ove stranice uvijek bez ponavljanja, bez dodanog humora ili nekaraketerističnih riječi.
+</p>
+<p>
+  paragrafa
+  riječi
+  bajtova
+  listi
+  Počni s 'Lorem ipsum dolor sit amet...'</p>
+</p>
+
+</div>
+
+<div id="Paris" class="city" style="display:none">
+  </br>
+  <h1>My Skills</h1>
+
+  </br>
+  <div class="container">
+    <div class="skills Photoshop"></div>
+  </div>
+  <p>Adobe Photoshop</p>
+
+  <div class="container">
+    <div class="skills Illustrator"></div>
+  </div>
+  <p>Adobe Illustrator</p>
+
+  <div class="container">
+    <div class="skills HTML"></div>
+  </div>
+  <p>HTML</p>
+
+  <div class="container">
+    <div class="skills CSS"></div>
+  </div>
+  <p>CSS</p>
+
+  <div class="container">
+    <div class="skills SE"></div>
+  </div>
+  <p>Java SE</p>
+
+  <div class="container">
+    <div class="skills JS"></div>
+  </div>
+  <p>Java Script & JQuery</p>
+
+  <div class="container">
+    <div class="skills C"></div>
+  </div>
+  <p>C#</p>
+
+  <div class="container">
+    <div class="skills Bootsrap"></div>
+  </div>
+  <p>Bootsrap</p>
+
+</div>
+
+<div id="Tokyo" class="city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
